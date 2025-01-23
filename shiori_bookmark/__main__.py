@@ -3,10 +3,8 @@ entry point for shiori-bookmark
 """
 
 #
-import json
 
 # import subprocess
-from pathlib import Path
 # from typing import List
 #
 import typer
@@ -16,7 +14,6 @@ import typer
 #
 # from shiori_bookmark import dmenu
 from shiori_bookmark.bookmarks import get_bookmarks
-from shiori_bookmark.config import bookmarks_path
 
 app = typer.Typer()
 
